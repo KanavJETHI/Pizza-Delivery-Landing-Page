@@ -3,7 +3,7 @@ function validateLogin() {
     const password = document.getElementById('password').value;
     const errorMessage = document.getElementById('errorMessage');
 
-    if (username === 'kanav' && password === 'Kan@1904') {
+    if (username === 'kanav' && password === 'kanav') {
         window.location.href = 'hero_page.html';  
         return false;
     } else {
